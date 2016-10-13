@@ -8,8 +8,16 @@ body {
   font-weight: normal;
 }
 
-nav, h1, h2 {
+nav {
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 img {
@@ -17,13 +25,19 @@ img {
 }
 
 a {
+  text-decoration: none;
+  font-weight: bold;
   color: #8f2440;
 }
 
 a:hover {
-  color: #3f1622
+  text-decoration: underline;
+  color: #3f1622;
 }
 
+li {
+  list-style-type: none;
+}
 /*   text-decoration
 list-style-types
 font-family: 'PT Sans', sans-serif
