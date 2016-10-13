@@ -1,27 +1,30 @@
+html {
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
+}
+
 body {
   background-color: #c9b5ab;
+  font-weight: normal;
 }
 
-body {
-    font-weight: normal;
+nav, h1, h2 {
+  font-family: "PT Sans", sans-serif;
 }
 
-nav {
-  font-family: 'PT Sans', sans-serif
+img {
+  width: 100%;
 }
 
-h1 {
-  font-family: 'PT Sans', sans-serif
+a {
+  color: #8f2440;
 }
 
-h2 {
-  font-family: 'PT Sans', sans-serif;
+a:hover {
+  color: #3f1622
 }
 
-
-
-{text-decoration;}
-{line-height
-{list-style-types}
-{font-family: 'PT Sans', sans-serif;}
-{font-family: 'PT Serif', serif;}
+/*   text-decoration
+list-style-types
+font-family: 'PT Sans', sans-serif
+font-family: 'PT Serif', serif */
